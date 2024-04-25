@@ -842,6 +842,12 @@ Make sure you deposit funds on zkSync Era using [one of the available bridges](h
 
 1. In the `deploy` folder, create the file `deploy-factory.ts` and copy/paste the following code, replacing `<WALLET_PRIVATE_KET>` with your private key.
 
+::: warning
+Remember to use a private key that only has testnet funds if you are going to paste your private key in plaintext. It is recommended to [never have a private key associated with real funds in plaintext.](https://github.com/Cyfrin/foundry-full-course-f23/discussions/5).
+
+If you wish to use hardhat with real funds, it's recommended to encrypt your key so it's not accidentally exposed.
+:::
+
 ```ts
 import { utils, Wallet } from "zksync-ethers";
 import * as ethers from "ethers";
