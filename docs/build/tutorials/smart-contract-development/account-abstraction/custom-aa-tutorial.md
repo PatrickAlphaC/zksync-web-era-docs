@@ -944,8 +944,8 @@ export default async function (hre: HardhatRuntimeEnvironment) {
 :::tip
 
 - zkSync has different address derivation rules from Ethereum.
-- Always use the [`createAddress`](../../../sdks/js/utils.md#createaddress) and [`create2Address`](../../../sdks/js/utils.md#create2address) utility functions of the `zksync-ethers` SDK.
-- Read the documentation for more information on [address derivation differences between Ethereum and zkSync](../../../developer-reference/differences-with-ethereum.md).
+- Always use the [`createAddress`](../../../sdks/js/utils.md#createaddress) and [`create2Address`](../../../sdks/js/utils.md#create2address) utility functions of the `zksync-ethers` SDK when looking to determine a contract's address.
+- Read the documentation for more information on [address derivation differences between Ethereum and zkSync](<[../../../developer-reference/differences-with-ethereum.md](https://docs.zksync.io/build/developer-reference/differences-with-ethereum.html#create-create2)>).
   :::
 
 ### Start a Transaction from the Account
