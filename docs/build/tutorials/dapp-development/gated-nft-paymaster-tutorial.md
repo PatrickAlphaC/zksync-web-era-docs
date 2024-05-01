@@ -104,6 +104,12 @@ The template provides a ready-to-use `hardhat.config.ts` file that targets zkSyn
 WALLET_PRIVATE_KEY=YourPrivateKeyHere...
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 Your private key will be used for paying the costs of deploying the smart contract.
 
 ::: warning

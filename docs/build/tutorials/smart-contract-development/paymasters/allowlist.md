@@ -184,8 +184,12 @@ export default async function (hre: HardhatRuntimeEnvironment) {
 }
 ```
 
-:::info
-Be sure to add your private key to the `.env` file.;
+::: warning
+
+Be sure to see [private key best practices](../../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+For this tutorial, we need to add your private key to a `.env` file. Please do not use a private key associated with live funds when your key is unencrypted.
+
 :::
 
 The provided script takes care of loading environment variables, setting up a deployment wallet with the private key specified in an `.env` file, contract deployment and funding the paymaster. You can adjust the amount of ETH to fund the paymaster to your needs.;

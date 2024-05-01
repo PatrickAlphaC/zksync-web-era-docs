@@ -114,3 +114,7 @@ We provide [two different testing environments](../../build/test-and-debug/getti
 By incorporating local testing into your development workflow, you can effectively verify the behavior and functionality of your contracts in a controlled environment, ensuring a smooth deployment process to the mainnet.
 
 For detailed instructions on configuring the local testing environment and performing tests using Mocha and Chai, refer to the dedicated [Testing](../../build/test-and-debug/getting-started.md) page.
+
+## Always use encrypted private keys
+
+Be sure to see [private key best practices](../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.

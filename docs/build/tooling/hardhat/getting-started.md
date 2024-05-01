@@ -159,6 +159,12 @@ Rename `.env.example` to `.env` and input your private key:
 WALLET_PRIVATE_KEY=YourPrivateKeyHere...
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 Your private key will be used for paying the costs of deploying the smart contract.
 
 ## Compile and deploy a contract

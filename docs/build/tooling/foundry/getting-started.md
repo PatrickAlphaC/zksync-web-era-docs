@@ -184,6 +184,12 @@ contract Greeter {
 forge create src/Greeter.sol:Greeter --constructor-args "Hello zkSync" --private-key <PRIVATE_KEY> --rpc-url https://sepolia.era.zksync.dev --chain 300 --zksync
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 ### Deploying Factory Contracts
 
 To deploy contracts like `GreeterFactory.sol`, use the `is-system` flag.

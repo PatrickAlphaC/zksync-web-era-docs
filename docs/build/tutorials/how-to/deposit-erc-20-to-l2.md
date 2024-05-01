@@ -64,6 +64,12 @@ WALLET_PRIV_KEY=<YOUR_PRIVATE_KEY>
 L1_RPC_ENDPOINT=<RPC_URL>
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 ### Step 3: Create the Deposit Script
 
 Create a new file `deposit-erc20.ts` and insert the below code:

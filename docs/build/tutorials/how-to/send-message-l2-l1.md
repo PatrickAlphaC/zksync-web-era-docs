@@ -72,6 +72,12 @@ yarn add zksync-ethers@5 ethers@5 typescript @types/node ts-node
 "RICH_WALLET_PRIV_KEY=0x..";
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 6. Create a `file.ts` file in the root directory with the next script:
 
 ```ts

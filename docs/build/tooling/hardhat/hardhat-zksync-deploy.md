@@ -214,6 +214,12 @@ const config: HardhatUserConfig = {
 };
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 - `accounts` represents a list of the private keys or mnemonic object for the account used in the deployment process.
 
 :::tip Accounts on zkSync Era Test Node or zksync-cli Local Node

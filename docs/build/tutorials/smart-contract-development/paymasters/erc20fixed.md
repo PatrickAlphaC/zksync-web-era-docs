@@ -300,6 +300,12 @@ describe.only("ERC20fixedPaymaster", function () {
 });
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 This particular script assesses the paymaster's ability to cover gas expenses for accounts, provided they hold a balance in the designated ERC20 token.
 
 To execute test:

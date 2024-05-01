@@ -292,6 +292,12 @@ describe("Greeter", function () {
 });
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 Execute the following command in your terminal to run the tests:
 
 ```bash

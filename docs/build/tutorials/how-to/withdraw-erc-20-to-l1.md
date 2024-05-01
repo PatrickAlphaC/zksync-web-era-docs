@@ -63,6 +63,12 @@ WALLET_PRIV_KEY=<YOUR_PRIVATE_KEY>
 L1_RPC_ENDPOINT=<RPC_URL>
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 ### Step 3: Create the Withdrawal Script
 
 Create a new file `withdraw-erc20.ts` and insert the following code. This script utilizes the `withdraw` method from the `Wallet` class of the zkSync Javascript SDK to withdraw ETH. Adjust the `AMOUNT` and `TOKEN_ADDRESS` variable if necessary.

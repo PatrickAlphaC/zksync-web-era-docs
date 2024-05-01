@@ -140,6 +140,12 @@ contract Governance {
 }
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 2. Replace the code in `hardhat.config.ts` with the following:
 
 ```ts

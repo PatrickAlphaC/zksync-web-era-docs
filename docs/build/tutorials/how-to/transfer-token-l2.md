@@ -61,6 +61,12 @@ const zkSyncProvider = new zksync.Provider("https://sepolia.era.zksync.dev");
 const zkSyncWallet = new zksync.Wallet("<SENDER-PRIVATE-KEY>", zkSyncProvider);
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 ### 4. Store the recipient's public key
 
 Save the recipient's wallet address to a variable, replacing `<RECIPIENT-PUBLIC-KEY>` with their public key.

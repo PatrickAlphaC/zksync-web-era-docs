@@ -765,6 +765,12 @@ yarn hardhat compile
 
 2. Create a file named `deploy/deployFactoryAccount.ts`. Then, copy and paste the following code into it. Remember to add your `DEPLOYER_PRIVATE_KEY` to the .env file.
 
+::: warning
+
+Be sure to see [private key best practices](../../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 The script deploys the factory, creates a new smart contract account, and funds it with some ETH.
 
 ```typescript
@@ -825,7 +831,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
 }
 ```
 
-3. Run the script.
+1. Run the script.
 
 ```sh
 yarn hardhat deploy-zksync --script deployFactoryAccount.ts

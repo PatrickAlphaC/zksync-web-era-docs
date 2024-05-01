@@ -217,6 +217,12 @@ export default async function (hre: HardhatRuntimeEnvironment) {
 }
 ```
 
+::: warning
+
+Be sure to see [private key best practices](../../support/private-key-management.md) before working with private keys associated with real funds so you don't accidentally expose your private key.
+
+:::
+
 To deploy contract on `zkSync Sepolia Testnet` that we already specified as default network in our **hardhat.config.ts**, run command:
 
 ```bash
