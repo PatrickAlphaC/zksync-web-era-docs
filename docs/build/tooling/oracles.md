@@ -11,6 +11,10 @@ head:
 
 Welcome to the Oracles page, a comprehensive hub dedicated to interacting with oracle services on zkSync Era. As the demand for decentralized applications continues, the need for reliable and efficient oracle services becomes paramount. Within these sections, you'll unearth specialized usage guides and tangible examples designed to facilitate seamless interactions with a variety of different oracle services.
 
+### Chainlink
+
+[Chainlink](https://docs.chain.link/data-feeds/price-feeds/addresses?network=zksync&page=1) private feeds provide secure, reliable, and tamper-proof price data for your smart contracts.
+
 ### DIA
 
 [DIA](https://docs.diadata.org/products/token-price-feeds) token price feeds provide smart contract real-time price information of 3,000+ cryptocurrencies, transparently sourced from 80+ trusted, high-volume DEXs and CEXs. Check out the usage guide below to get started today!
