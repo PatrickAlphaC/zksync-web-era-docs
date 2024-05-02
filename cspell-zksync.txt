@@ -66,6 +66,7 @@ Arweave
 Streamr
 dutterbutter
 zeek
+Cyfrin
 
 // Used libraries
 numberish
